@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_description -- -j12 -l12
+[0.079s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[0.079s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.079s]   has asked CMake to find a package configuration file provided by
+[0.079s]   "ament_cmake", but CMake did not find one.
+[0.079s] 
+[0.079s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.079s]   any of the following names:
+[0.079s] 
+[0.079s]     ament_cmakeConfig.cmake
+[0.079s]     ament_cmake-config.cmake
+[0.079s] 
+[0.079s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.079s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.080s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.080s]   has been installed.
+[0.080s] 
+[0.080s] [0m
+[0.080s] -- Configuring incomplete, errors occurred!
+[0.080s] See also "/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_description/CMakeFiles/CMakeOutput.log".
+[0.080s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.227s] Invoked command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_description -- -j12 -l12

@@ -1,0 +1,111 @@
+# Everything about the task + robot that you may need to tune. All lengths in metres.
+
+# OMX reach is SHORT for 98 mm pegs with a straight-down gripper (gripper centre max ~0.13 m high).
+#  * Robot ON the table (table_z 0.00): it cannot lift a peg OVER the other pegs, so the
+#    planner carries it just above the board and steers AROUND them (needs ~2 cm gaps).
+#  * Robot on an 8-9 cm riser (table_z -0.085): it can carry pegs OVER everything -> best.
+table_z: 0.00              # height of the table top in the base frame
+peg_height: 0.100          # 100 mm (10 cm) tall pegs
+# Measured peg sizes (m). The planner uses these instead of the camera's size estimate.
+peg_geometry:
+  square:   {side: 0.040}           # 40 x 40 mm
+  triangle: {side: 0.034}           # equilateral, 34 mm sides
+  hexagon:  {side: 0.020}           # regular, 20 mm sides
+  circle:   {diameter: 0.040}
+use_depth_height: false    # false -> use table_z + peg_height instead of measured top
+
+vision:
+  min_peg_area_px: 100       # tuned for 240p stream (triangle peg ~200px)
+  min_socket_area_px: 150    # tuned for 240p stream (triangle/circle socket ~300-600px)
+  max_socket_radius_m: 0.240 # allow full physical robot reach
+  approx_eps_frac: 0.03    # approxPolyDP tolerance (fraction of perimeter)
+  top_band_m: 0.008        # keep peg pixels within 8 mm of the highest point (= top face)
+  fuse_merge_dist: 0.015   # sockets closer than this = same socket (must be < 20mm so adjacent sockets at ~25mm are not merged!)
+  rate_hz: 5.0
+
+grasp:
+  pregrasp_offset: 0.060   # hover 6 cm above peg top -> TCP z = 0.160m (well clear of 10cm peg!)
+  grasp_depth: 0.018       # grip 18 mm below peg top -> TCP z = 0.082m
+  max_grasp_depth: 0.025   # max 25 mm depth
+  min_grasp_z: 0.075       # never grasp below 75 mm
+  carry_z: 0.125           # Increased lift height during transit = 125 mm
+  settle_delay: 0.6        # s to wait after reaching the peg, before closing
+  close_delay: 1.0         # s to wait for the gripper to close
+  lift_clearance: 0.015    # fallback clearance (0.008 + 0.015 + 0.094 = 0.117)
+  circle_grasp_x_offset: 0.0
+  circle_grasp_y_offset: 0.0
+  hexagon_grasp_backward_offset: 0.0
+  square_grasp_backward_offset: 0.0
+  triangle_grasp_backward_offset: 0.0
+
+place:
+  board_height: 0.008      # 8 mm board height (ensures carried peg is always well above 6 mm board)
+  hover_z: 0.110           # Exact Z height while hovering above socket before insert = 110 mm
+  release_z: 0.105         # Exact Z height where gripper opens to release the peg = 105 mm (5 mm lower than hover_z)
+  circle_y_offset: 0.0
+  hexagon_y_offset: 0.0
+  square_y_offset: 0.0
+  square_x_offset: 0.0
+  triangle_place_backward_offset: 0.0
+  triangle_x_offset: 0.0
+  triangle_y_offset: 0.0
+  hover_offset: 0.008      # fallback hover offset (0.008 + 0.008 + 0.094 = 0.110)
+  insert_depth: 0.006      # 6 mm downward insert from hover height before releasing (smooth collision)
+  descend_step: 0.005      # small Cartesian steps = "lower slowly"
+  descend_time_per_step: 0.15
+  release_delay: 0.8
+
+motion:
+  cartesian_step: 0.01     # max distance between IK points on a straight line
+  move_speed: 0.06         # m/s for normal Cartesian moves
+  min_segment_time: 0.6    # s, lower bound per trajectory
+  pitch_tolerance: 0.35    # (teleop only now) — autonomy keeps the gripper exactly vertical
+  home_joints: [0.0, -1.11, -0.72, 1.63]   # q1..q4 rad (gripper at x=0.000m, y=0.000m, z=0.300m)
+
+collision:                 # gripper geometry (from the ROBOTIS OMX CAD model) — check with a ruler
+  finger_tip_below_tcp: 0.021   # fingertips are 21 mm below the gripper centre (TCP)
+  finger_top_above_tcp: 0.034   # thin finger part ends 34 mm above TCP (then the wide slider block)
+  finger_half_depth: 0.0175     # finger is ~35 mm wide (radial direction)
+  finger_thickness: 0.012
+  mount_bottom_above_tcp: 0.034 # slider block the finger is screwed to: 58 mm wide, 30 mm tall
+  mount_top_above_tcp: 0.064
+  mount_half_depth: 0.029
+  wrist_bottom_above_tcp: 0.058 # wrist servo box
+  wrist_top_above_tcp: 0.150
+  wrist_half_depth: 0.032
+  wrist_half_width: 0.064
+  open_clearance: 0.006         # finger clearance per side when coming down around a peg
+  release_extra_gap: 0.008      # when letting go, open only ~8 mm wider than the peg (neighbours!)
+  safety_margin: 0.005          # extra clearance kept from every obstacle (covers ~vision error)
+  model_board: false          # false -> prevents diagonal board AABB box from falsely blocking pegs on the table
+  board_margin: 0.035           # board edge beyond the outer sockets
+
+execution:
+  mode: one_by_one         # one_by_one: a person puts one peg at a time, robot places it, repeat
+                           # all_at_once: all pegs on the table at the start, robot places them all
+  yaw_warn_deg: 8          # warn when the predicted peg/socket misalignment is larger than this
+  max_retries: 1
+  verify: false            # false: autonomous run completes smoothly without vision verification delays
+  verify_xy_tol: 0.040     # peg centre within 40 mm of socket centre (accounts for manual trimming offsets)
+  verify_z_tol: 0.02       # peg top must be within this of (socket top + peg_height - insert_depth)
+  order: [triangle, square, hexagon, circle]   # hardest first while the board is empty
+
+robot:
+  backend: ros2_control    # ros2_control | omx_services | dry_run
+  joint_names: [joint1, joint2, joint3, joint4]
+  # ros2_control backend (open_manipulator Humble bringup)
+  arm_trajectory_topic: /arm_controller/joint_trajectory
+  gripper_action: /gripper_controller/gripper_cmd
+  joint_states_topic: /joint_states
+  gripper_open: -0.010      # open: -0.010 (hardware assembly polarity)
+  gripper_close: 0.019      # close: +0.019 (hardware assembly polarity)
+  # MEASURE these two finger gaps with a ruler (inside faces of the fingertips). The planner then opens
+  # the gripper to exactly (peg width at its random rotation + 12 mm) and releases with +8 mm.
+  gripper_gap_open: 0.080   # gap (m) when sent gripper_open
+  gripper_gap_closed: 0.0   # gap (m) when sent gripper_close (0 = fingers touch)
+  gripper_pregrasp: -0.010  # wide open before approaching peg
+  gripper_release: -0.010   # wide open when releasing in socket
+  gripper_max_effort: 5.0
+  # omx_services backend (older open_manipulator_x_controller)
+  joint_service: /goal_joint_space_path
+  tool_service: /goal_tool_control

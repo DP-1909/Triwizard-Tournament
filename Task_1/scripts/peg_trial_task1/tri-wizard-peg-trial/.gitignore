@@ -1,0 +1,10 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+data/
+out/
+logs/*.csv
+logs/summary.md
+marker_*.png

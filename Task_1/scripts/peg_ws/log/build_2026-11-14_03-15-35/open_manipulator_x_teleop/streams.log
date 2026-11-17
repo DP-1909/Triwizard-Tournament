@@ -1,0 +1,69 @@
+[0.008s] Invoking command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_teleop': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake /home/dev/ME-639/project/peg_ws/src/open_manipulator_driver/open_manipulator_x_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.166s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.353s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.421s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.446s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.478s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.481s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.489s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.500s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.513s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.563s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.566s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.664s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.691s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.732s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.739s] -- Looking for pthread.h
+[0.799s] -- Looking for pthread.h - found
+[0.800s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.867s] -- Found Threads: TRUE  
+[0.907s] -- Found open_manipulator_x_bringup: 3.0.4 (/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/cmake)
+[0.907s] -- Found open_manipulator_x_moveit_config: 3.0.4 (/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config/share/open_manipulator_x_moveit_config/cmake)
+[0.907s] -- Found open_manipulator_x_description: 3.0.4 (/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/cmake)
+[0.908s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.918s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.935s] -- Found control_msgs: 4.9.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.008s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[1.016s] -- Found rclcpp_action: 16.0.21 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.093s] -- Configuring done
+[1.103s] -- Generating done
+[1.106s] -- Build files have been written to: /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_teleop
+[1.116s] Invoked command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_teleop' returned '0': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake /home/dev/ME-639/project/peg_ws/src/open_manipulator_driver/open_manipulator_x_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop
+[1.118s] Invoking command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_teleop': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_teleop -- -j12 -l12
+[1.163s] [ 50%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_teleop.dir/src/open_manipulator_x_teleop.cpp.o[0m
+[7.689s] [100%] [32m[1mLinking CXX executable open_manipulator_x_teleop[0m
+[8.072s] [100%] Built target open_manipulator_x_teleop
+[8.081s] Invoked command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_teleop' returned '0': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_teleop -- -j12 -l12
+[8.084s] Invoking command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_teleop': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --install /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_teleop
+[8.090s] -- Install configuration: ""
+[8.091s] -- Execute custom install script
+[8.091s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop/open_manipulator_x_teleop
+[8.098s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_teleop
+[8.107s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_teleop
+[8.115s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/ament_prefix_path.sh
+[8.122s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/ament_prefix_path.dsv
+[8.129s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/path.sh
+[8.136s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/path.dsv
+[8.146s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.bash
+[8.154s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.sh
+[8.164s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.zsh
+[8.172s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.dsv
+[8.179s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.dsv
+[8.186s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/ament_index/resource_index/packages/open_manipulator_x_teleop
+[8.193s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/cmake/open_manipulator_x_teleopConfig.cmake
+[8.200s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/cmake/open_manipulator_x_teleopConfig-version.cmake
+[8.212s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.xml
+[8.228s] Invoked command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_teleop' returned '0': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_moveit_config:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup:/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --install /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_teleop

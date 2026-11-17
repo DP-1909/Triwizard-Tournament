@@ -1,0 +1,28 @@
+# HSV thresholds per peg colour  (OpenCV: H 0-179, S 0-255, V 0-255)
+# Tune these for YOUR lights with:  python3 scripts/tune_hsv.py --image <saved_frame.png>
+# A colour may have several [lower, upper] ranges (red wraps around H = 0).
+#
+# `shape` is OPTIONAL. Leave it empty to trust shape detection. If the organisers
+# tell you e.g. "the red peg is the square", you may fix it here as a safety net.
+
+morphology:
+  open: 5      # kernel px — removes noise specks
+  close: 7     # kernel px — fills small holes
+
+pegs:
+  orange:                      # physical orange peg (hexagon)
+    hsv: [[[4, 150, 90], [16, 255, 255]]]
+    shape: "hexagon"
+  yellow:                      # physical bright yellow peg (triangle)
+    hsv: [[[18, 120, 70], [28, 255, 255]]]
+    shape: "triangle"
+  green:                       # physical lime green cylinder (circle)
+    hsv: [[[31, 100, 40], [85, 255, 255]]]
+    shape: "circle"
+  blue:                        # physical blue square peg (square)
+    hsv: [[[95, 100, 50], [130, 255, 255]]]
+    shape: "square"
+
+# Colour of the socket board (cardboard / MDF board)
+board:
+  hsv: [[[10, 20, 70], [35, 170, 195]]]

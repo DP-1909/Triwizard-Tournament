@@ -1,0 +1,1 @@
+/home/dev/ME-639/project/peg_ws/src/open_manipulator_driver/open_manipulator_x_moveit_config/launch/setup_assistant.launch.py

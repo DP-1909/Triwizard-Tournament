@@ -1,0 +1,20 @@
+depth_scale: 0.001
+cameras:
+  cam1:
+    color_topic: /cam1/camera/color/image_raw
+    depth_topic: /cam1/camera/aligned_depth_to_color/image_raw
+    info_topic: /cam1/camera/color/camera_info
+    T_base_cam:
+    - [-0.95378, 0.01014, -0.30033, 0.27448]
+    - [0.04355, 0.99354, -0.10476, 0.00177]
+    - [0.29733, -0.113, -0.94806, 0.4523]
+    - [0.0, 0.0, 0.0, 1.0]
+  cam2:
+    color_topic: /cam2/camera/color/image_raw
+    depth_topic: /cam2/camera/aligned_depth_to_color/image_raw
+    info_topic: /cam2/camera/color/camera_info
+    T_base_cam:
+    - [0.0, -1.0, 0.0, 0.2]
+    - [-1.0, 0.0, 0.0, -0.1]
+    - [0.0, 0.0, -1.0, 0.55]
+    - [0.0, 0.0, 0.0, 1.0]

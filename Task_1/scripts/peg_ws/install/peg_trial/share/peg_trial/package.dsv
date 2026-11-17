@@ -1,0 +1,9 @@
+source;share/peg_trial/hook/pythonpath.ps1
+source;share/peg_trial/hook/pythonpath.dsv
+source;share/peg_trial/hook/pythonpath.sh
+source;share/peg_trial/hook/ament_prefix_path.ps1
+source;share/peg_trial/hook/ament_prefix_path.dsv
+source;share/peg_trial/hook/ament_prefix_path.sh
+source;../../build/peg_trial/share/peg_trial/hook/pythonpath_develop.ps1
+source;../../build/peg_trial/share/peg_trial/hook/pythonpath_develop.dsv
+source;../../build/peg_trial/share/peg_trial/hook/pythonpath_develop.sh

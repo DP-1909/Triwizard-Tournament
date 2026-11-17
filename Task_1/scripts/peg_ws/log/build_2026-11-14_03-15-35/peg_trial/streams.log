@@ -1,0 +1,34 @@
+[0.868s] Invoking command in '/home/dev/ME-639/project/peg_ws/build/peg_trial': PYTHONPATH=/home/dev/ME-639/project/peg_ws/build/peg_trial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ME-639/project/peg_ws/install/peg_trial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dev/ME-639/project/peg_ws/build/peg_trial/build --no-deps symlink_data
+[1.059s] running develop
+[1.163s] running egg_info
+[1.163s] creating peg_trial.egg-info
+[1.163s] writing peg_trial.egg-info/PKG-INFO
+[1.163s] writing dependency_links to peg_trial.egg-info/dependency_links.txt
+[1.163s] writing entry points to peg_trial.egg-info/entry_points.txt
+[1.163s] writing requirements to peg_trial.egg-info/requires.txt
+[1.163s] writing top-level names to peg_trial.egg-info/top_level.txt
+[1.164s] writing manifest file 'peg_trial.egg-info/SOURCES.txt'
+[1.165s] reading manifest file 'peg_trial.egg-info/SOURCES.txt'
+[1.166s] writing manifest file 'peg_trial.egg-info/SOURCES.txt'
+[1.166s] running build_ext
+[1.167s] Creating /home/dev/ME-639/project/peg_ws/install/peg_trial/lib/python3.10/site-packages/peg-trial.egg-link (link to .)
+[1.167s] Installing autonomy_node script to /home/dev/ME-639/project/peg_ws/install/peg_trial/lib/peg_trial
+[1.167s] Installing teleop_keyboard script to /home/dev/ME-639/project/peg_ws/install/peg_trial/lib/peg_trial
+[1.167s] Installing vision_node script to /home/dev/ME-639/project/peg_ws/install/peg_trial/lib/peg_trial
+[1.168s] 
+[1.168s] Installed /home/dev/ME-639/project/peg_ws/build/peg_trial
+[1.168s] running symlink_data
+[1.168s] creating /home/dev/ME-639/project/peg_ws/install/peg_trial/share/ament_index
+[1.168s] creating /home/dev/ME-639/project/peg_ws/install/peg_trial/share/ament_index/resource_index
+[1.168s] creating /home/dev/ME-639/project/peg_ws/install/peg_trial/share/ament_index/resource_index/packages
+[1.168s] symbolically linking /home/dev/ME-639/project/peg_ws/build/peg_trial/resource/peg_trial -> /home/dev/ME-639/project/peg_ws/install/peg_trial/share/ament_index/resource_index/packages
+[1.168s] symbolically linking /home/dev/ME-639/project/peg_ws/build/peg_trial/package.xml -> /home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial
+[1.168s] creating /home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/launch
+[1.168s] symbolically linking /home/dev/ME-639/project/peg_ws/build/peg_trial/launch/autonomy.launch.py -> /home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/launch
+[1.168s] symbolically linking /home/dev/ME-639/project/peg_ws/build/peg_trial/launch/cameras.launch.py -> /home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/launch
+[1.168s] symbolically linking /home/dev/ME-639/project/peg_ws/build/peg_trial/launch/vision.launch.py -> /home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/launch
+[1.168s] creating /home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/config
+[1.168s] symbolically linking /home/dev/ME-639/project/peg_ws/build/peg_trial/config/camera_calib.yaml -> /home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/config
+[1.168s] symbolically linking /home/dev/ME-639/project/peg_ws/build/peg_trial/config/colors.yaml -> /home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/config
+[1.168s] symbolically linking /home/dev/ME-639/project/peg_ws/build/peg_trial/config/task.yaml -> /home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/config
+[1.190s] Invoked command in '/home/dev/ME-639/project/peg_ws/build/peg_trial' returned '0': PYTHONPATH=/home/dev/ME-639/project/peg_ws/build/peg_trial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ME-639/project/peg_ws/install/peg_trial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dev/ME-639/project/peg_ws/build/peg_trial/build --no-deps symlink_data

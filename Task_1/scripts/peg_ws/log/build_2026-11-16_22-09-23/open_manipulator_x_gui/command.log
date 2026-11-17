@@ -1,0 +1,2 @@
+Invoking command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_gui': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_gui -- -j12 -l12
+Invoked command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_gui' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_gui -- -j12 -l12

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing peg_trial.egg-info/PKG-INFO
+writing dependency_links to peg_trial.egg-info/dependency_links.txt
+writing entry points to peg_trial.egg-info/entry_points.txt
+writing requirements to peg_trial.egg-info/requires.txt
+writing top-level names to peg_trial.egg-info/top_level.txt
+reading manifest file 'peg_trial.egg-info/SOURCES.txt'
+writing manifest file 'peg_trial.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dev/ME-639/project/peg_ws/install/peg_trial/lib/python3.10/site-packages/peg-trial.egg-link (link to .)
+Installing autonomy_node script to /home/dev/ME-639/project/peg_ws/install/peg_trial/lib/peg_trial
+Installing teleop_keyboard script to /home/dev/ME-639/project/peg_ws/install/peg_trial/lib/peg_trial
+Installing vision_node script to /home/dev/ME-639/project/peg_ws/install/peg_trial/lib/peg_trial
+
+Installed /home/dev/ME-639/project/peg_ws/build/peg_trial
+running symlink_data

@@ -1,0 +1,6 @@
+# Most things come from ROS 2 Humble + apt (see README). Extra Python libs:
+numpy>=1.21
+PyYAML>=5.4
+pytest
+# OpenCV: use apt's python3-opencv (it has cv2.aruco). Do NOT pip-install a second OpenCV
+# unless `python3 -c "import cv2; cv2.aruco"` fails.

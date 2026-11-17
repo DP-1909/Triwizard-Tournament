@@ -1,0 +1,51 @@
+[0.009s] Invoking command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake /home/dev/ME-639/project/peg_ws/src/open_manipulator_driver/open_manipulator_x_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.384s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.443s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.512s] -- Configuring done
+[0.514s] -- Generating done
+[0.515s] -- Build files have been written to: /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup
+[0.518s] Invoked command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup' returned '0': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake /home/dev/ME-639/project/peg_ws/src/open_manipulator_driver/open_manipulator_x_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup
+[0.519s] Invoking command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup -- -j12 -l12
+[0.549s] Invoked command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup' returned '0': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup -- -j12 -l12
+[0.549s] Invoking command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --install /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup
+[0.555s] -- Install configuration: ""
+[0.556s] -- Execute custom install script
+[0.556s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/launch/base.launch.py
+[0.562s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/launch/fake.launch.py
+[0.567s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/launch/gazebo.launch.py
+[0.572s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/launch/hardware.launch.py
+[0.578s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/config/gazebo_controller_manager.yaml
+[0.584s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/config/hardware_controller_manager.yaml
+[0.590s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/rviz/open_manipulator_x.rviz
+[0.596s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/worlds/empty_world.model
+[0.603s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/99-open-manipulator-cdc.rules
+[0.611s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/lib/open_manipulator_x_bringup/create_udev_rules
+[0.618s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_bringup
+[0.626s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_bringup
+[0.633s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/environment/ament_prefix_path.sh
+[0.639s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/environment/ament_prefix_path.dsv
+[0.648s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/environment/path.sh
+[0.654s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/environment/path.dsv
+[0.661s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/local_setup.bash
+[0.668s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/local_setup.sh
+[0.677s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/local_setup.zsh
+[0.685s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/local_setup.dsv
+[0.691s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.dsv
+[0.697s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/ament_index/resource_index/packages/open_manipulator_x_bringup
+[0.706s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/cmake/open_manipulator_x_bringupConfig.cmake
+[0.712s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/cmake/open_manipulator_x_bringupConfig-version.cmake
+[0.720s] -- Symlinking: /home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.xml
+[0.730s] Invoked command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup' returned '0': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --install /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup

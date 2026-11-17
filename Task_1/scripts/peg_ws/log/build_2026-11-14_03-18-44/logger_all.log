@@ -1,0 +1,290 @@
+[0.066s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'open_manipulator_x_bringup', 'peg_trial']
+[0.066s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['open_manipulator_x_bringup', 'peg_trial'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x723021c5b040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x723021c18610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x723021c18610>>, mixin_verb=('build',))
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dev/ME-639/project/peg_ws'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator_driver/open_manipulator' with type 'ros.ament_cmake' and name 'open_manipulator'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_bringup) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_bringup) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_bringup) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_bringup) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_bringup) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_bringup) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_bringup) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_bringup) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator_driver/open_manipulator_x_bringup' with type 'ros.ament_cmake' and name 'open_manipulator_x_bringup'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_description) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_description) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_description) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_description) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_description) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_description) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_description) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_description) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_description) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator_driver/open_manipulator_x_description' with type 'ros.ament_cmake' and name 'open_manipulator_x_description'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_gui) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_gui) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_gui) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_gui) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_gui) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_gui) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_gui) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_gui) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator_driver/open_manipulator_x_gui' with type 'ros.ament_cmake' and name 'open_manipulator_x_gui'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_moveit_config) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_moveit_config) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_moveit_config) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_moveit_config) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_moveit_config) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_moveit_config) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_moveit_config) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_moveit_config) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator_driver/open_manipulator_x_moveit_config' with type 'ros.ament_cmake' and name 'open_manipulator_x_moveit_config'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_playground) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_playground) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_playground) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_playground) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_playground) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_playground) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_playground) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_playground) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_playground) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator_driver/open_manipulator_x_playground' with type 'ros.ament_cmake' and name 'open_manipulator_x_playground'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_teleop) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_teleop) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_teleop) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_teleop) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_teleop) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_teleop) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_teleop) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_driver/open_manipulator_x_teleop) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator_driver/open_manipulator_x_teleop' with type 'ros.ament_cmake' and name 'open_manipulator_x_teleop'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/tri-wizard-peg-trial) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tri-wizard-peg-trial) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tri-wizard-peg-trial) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tri-wizard-peg-trial) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tri-wizard-peg-trial) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tri-wizard-peg-trial) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tri-wizard-peg-trial) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tri-wizard-peg-trial) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/tri-wizard-peg-trial) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tri-wizard-peg-trial' with type 'ros.ament_python' and name 'peg_trial'
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.196s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'open_manipulator_x_description' in 'src/open_manipulator_driver/open_manipulator_x_description'
+[0.196s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'open_manipulator_x_gui' in 'src/open_manipulator_driver/open_manipulator_x_gui'
+[0.196s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'open_manipulator_x_playground' in 'src/open_manipulator_driver/open_manipulator_x_playground'
+[0.196s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'open_manipulator_x_moveit_config' in 'src/open_manipulator_driver/open_manipulator_x_moveit_config'
+[0.196s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'open_manipulator_x_teleop' in 'src/open_manipulator_driver/open_manipulator_x_teleop'
+[0.196s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'open_manipulator' in 'src/open_manipulator_driver/open_manipulator'
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.198s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/humble
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'peg_trial' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'peg_trial' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'peg_trial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'peg_trial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'peg_trial' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'peg_trial' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'peg_trial' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'peg_trial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'peg_trial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'peg_trial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev/ME-639/project/peg_ws/build/peg_trial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev/ME-639/project/peg_ws/install/peg_trial', 'merge_install': False, 'path': '/home/dev/ME-639/project/peg_ws/src/tri-wizard-peg-trial', 'symlink_install': True, 'test_result_base': None}
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_bringup' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_bringup' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_x_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup', 'merge_install': False, 'path': '/home/dev/ME-639/project/peg_ws/src/open_manipulator_driver/open_manipulator_x_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.225s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.226s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.226s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dev/ME-639/project/peg_ws/src/tri-wizard-peg-trial' with build type 'ament_python'
+[0.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('peg_trial', 'ament_prefix_path')
+[0.228s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/hook/ament_prefix_path.ps1'
+[0.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/hook/ament_prefix_path.dsv'
+[0.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/hook/ament_prefix_path.sh'
+[0.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.232s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dev/ME-639/project/peg_ws/src/open_manipulator_driver/open_manipulator_x_bringup' with build type 'ament_cmake'
+[0.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dev/ME-639/project/peg_ws/src/open_manipulator_driver/open_manipulator_x_bringup'
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.380s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dev/ME-639/project/peg_ws/src/tri-wizard-peg-trial'
+[0.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup -- -j12 -l12
+[0.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup' returned '0': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --build /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup -- -j12 -l12
+[0.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --install /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup
+[0.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_bringup)
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup' returned '0': AMENT_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_description:/opt/ros/humble /usr/bin/cmake --install /home/dev/ME-639/project/peg_ws/build/open_manipulator_x_bringup
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup' for CMake module files
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup' for CMake config files
+[0.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_bringup', 'cmake_prefix_path')
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/hook/cmake_prefix_path.ps1'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/hook/cmake_prefix_path.dsv'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/hook/cmake_prefix_path.sh'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/lib'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/bin'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/lib/pkgconfig/open_manipulator_x_bringup.pc'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/lib/python3.10/site-packages'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/bin'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.ps1'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.dsv'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.sh'
+[0.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.bash'
+[0.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.zsh'
+[0.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/colcon-core/packages/open_manipulator_x_bringup)
+[0.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_bringup)
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup' for CMake module files
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup' for CMake config files
+[0.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_bringup', 'cmake_prefix_path')
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/hook/cmake_prefix_path.ps1'
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/hook/cmake_prefix_path.dsv'
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/hook/cmake_prefix_path.sh'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/lib'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/bin'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/lib/pkgconfig/open_manipulator_x_bringup.pc'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/lib/python3.10/site-packages'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/bin'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.ps1'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.dsv'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.sh'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.bash'
+[0.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/open_manipulator_x_bringup/package.zsh'
+[0.452s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev/ME-639/project/peg_ws/install/open_manipulator_x_bringup/share/colcon-core/packages/open_manipulator_x_bringup)
+[0.601s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: init_catalog, build, install_scripts, install_data, build_clib, install_headers, extract_messages, test, bdist_rpm, saveopts, register, check, install_lib, bdist, egg_info, compile_catalog, build_ext, build_scripts, sdist, bdist_dumb, alias, update_catalog, upload, build_py, upload_docs, bdist_egg, clean, install, dist_info, develop, bdist_wheel, symlink_data, easy_install, setopt, rotate, install_egg_info
+[0.785s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --prefix, --upgrade, --quiet, --exclude-scripts, --uninstall, --site-dirs, --dry-run, --no-deps, --optimize, --script-dir, --verbose, --no-find-links, --build-directory, --force-installation-into-system-dir, --find-links, --always-copy, --index-url, --multi-version, --egg-path, --install-dir, --editable, --allow-hosts, --help, --local-snapshots-ok, --record, --zip-ok, --no-user-cfg, --version, --user, --always-unzip, --install-layout
+[0.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dev/ME-639/project/peg_ws/build/peg_trial': PYTHONPATH=/home/dev/ME-639/project/peg_ws/build/peg_trial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ME-639/project/peg_ws/install/peg_trial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dev/ME-639/project/peg_ws/build/peg_trial/build --no-deps symlink_data
+[1.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('peg_trial', 'pythonpath_develop')
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/ME-639/project/peg_ws/build/peg_trial/share/peg_trial/hook/pythonpath_develop.ps1'
+[1.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dev/ME-639/project/peg_ws/build/peg_trial' returned '0': PYTHONPATH=/home/dev/ME-639/project/peg_ws/build/peg_trial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ME-639/project/peg_ws/install/peg_trial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dev/ME-639/project/peg_ws/build/peg_trial/build --no-deps symlink_data
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev/ME-639/project/peg_ws/build/peg_trial/share/peg_trial/hook/pythonpath_develop.dsv'
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/ME-639/project/peg_ws/build/peg_trial/share/peg_trial/hook/pythonpath_develop.sh'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/peg_trial' for CMake module files
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/peg_trial' for CMake config files
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/peg_trial/lib'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/peg_trial/bin'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/peg_trial/lib/pkgconfig/peg_trial.pc'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/peg_trial/lib/python3.10/site-packages'
+[1.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('peg_trial', 'pythonpath')
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/hook/pythonpath.ps1'
+[1.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/hook/pythonpath.dsv'
+[1.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/hook/pythonpath.sh'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/dev/ME-639/project/peg_ws/install/peg_trial/bin'
+[1.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(peg_trial)
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/package.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/package.dsv'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/package.sh'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/package.bash'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/dev/ME-639/project/peg_ws/install/peg_trial/share/peg_trial/package.zsh'
+[1.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dev/ME-639/project/peg_ws/install/peg_trial/share/colcon-core/packages/peg_trial)
+[1.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.062s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.067s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.067s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.067s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.075s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev/ME-639/project/peg_ws/install/local_setup.ps1'
+[1.076s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dev/ME-639/project/peg_ws/install/_local_setup_util_ps1.py'
+[1.077s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev/ME-639/project/peg_ws/install/setup.ps1'
+[1.077s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev/ME-639/project/peg_ws/install/local_setup.sh'
+[1.078s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dev/ME-639/project/peg_ws/install/_local_setup_util_sh.py'
+[1.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev/ME-639/project/peg_ws/install/setup.sh'
+[1.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev/ME-639/project/peg_ws/install/local_setup.bash'
+[1.079s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev/ME-639/project/peg_ws/install/setup.bash'
+[1.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dev/ME-639/project/peg_ws/install/local_setup.zsh'
+[1.080s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dev/ME-639/project/peg_ws/install/setup.zsh'
